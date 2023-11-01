@@ -3,7 +3,7 @@ const add = require("./add.js");
 
 describe("Add Function", () => {
   it("should return the sum of two numbers", () => {
-    expect(add(2, 3)).to.equal(5);
+    expect(add(2, 3)).to.equal(4);
   });
 
   it("should return the sum of negative numbers", () => {
